@@ -1,4 +1,4 @@
-package org.example.rokomari.entity;
+package org.example.springsecurity.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -7,7 +7,7 @@ import jakarta.persistence.Table;
 import lombok.Data;
 
 @Entity
-@Table(name ="user_table")
+@Table(name ="users")
 @Data
 public class User {
     @Id
